@@ -23,7 +23,7 @@ namespace App1.Materias
             temas = new List<Temas>
             {
                 new Temas { Name = "Básicas", ImagenSource = "Basicas.png" },
-                new Temas { Name = "Geometría", ImagenSource = "Recurso.png" },
+                new Temas { Name = "Geometría", ImagenSource = "Recurso-------[Ñ.png" },
                 new Temas { Name = "Gráficas y Funciones", ImagenSource = "Funciones.png" }
             };
             foreach (var tema in temas)
