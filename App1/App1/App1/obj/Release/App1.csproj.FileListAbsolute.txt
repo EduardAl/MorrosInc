@@ -1,0 +1,16 @@
+D:\archivos\Pros\App1\App1\App1\bin\Release\App1.dll
+D:\archivos\Pros\App1\App1\App1\bin\Release\App1.pdb
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Core.dll
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Platform.dll
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Xaml.dll
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Core.pdb
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Core.xml
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Platform.pdb
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Xaml.pdb
+D:\archivos\Pros\App1\App1\App1\bin\Release\Xamarin.Forms.Xaml.xml
+D:\archivos\Pros\App1\App1\App1\obj\Release\App1.csproj.CoreCompileInputs.cache
+D:\archivos\Pros\App1\App1\App1\obj\Release\App1.MainPage.xaml.g.cs
+D:\archivos\Pros\App1\App1\App1\obj\Release\App1.App.xaml.g.cs
+D:\archivos\Pros\App1\App1\App1\obj\Release\App1.Materias.Matematica.xaml.g.cs
+D:\archivos\Pros\App1\App1\App1\obj\Release\App1.dll
+D:\archivos\Pros\App1\App1\App1\obj\Release\App1.pdb

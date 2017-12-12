@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage"
+             Title="Forms App"
+             BackgroundImage="Back.png">
+    <ContentPage.Content>
+        <StackLayout x:Name="Stack1"
+                     Spacing="0"
+                     Margin="0, -5, 0, 0">
+            <StackLayout HeightRequest="20">
+            </StackLayout>
+            <Frame x:Name="StackMatematica"
+                        CornerRadius="10"  
+                           OutlineColor="Black"
+                           BackgroundColor="Red"
+                           Margin="60, 30, -10, 0"
+                           Padding="3">
+                <StackLayout BackgroundColor="Red"
+                                     HeightRequest="65">
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="5" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="1" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <StackLayout BackgroundColor="Red"
+                                         Orientation="Horizontal"
+                                         VerticalOptions="StartAndExpand"
+                                         HorizontalOptions="StartAndExpand">
+                        <Image x:Name="Matemática"
+                                       Source="mate.png"
+                                       Margin="10, 0, 0, 0"
+                                       HeightRequest="40"
+                                       WidthRequest="40">
+                        </Image>
+                        <Label TextColor="Black"
+                                       FontAttributes="Bold"
+                                       Text="        Matemáticas"
+                                       FontSize="Large"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center">
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <StackLayout x:Name="StackFisica" 
+                                 HeightRequest="20">
+            </StackLayout>
+            <Frame CornerRadius="10"  
+                           OutlineColor="Black"
+                           BackgroundColor="Orange"
+                           Margin="-10, 0, 60, 0"
+                           Padding="3">
+                <StackLayout BackgroundColor="Orange"
+                                     HeightRequest="65">
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="5" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="1" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <StackLayout BackgroundColor="Orange"
+                                         Orientation="Horizontal"
+                                         VerticalOptions="StartAndExpand"
+                                         HorizontalOptions="StartAndExpand">
+                        <Label TextColor="Black"
+                                       FontAttributes="Bold"
+                                       Text="                        Física        "
+                                       FontSize="Large"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center">
+                        </Label>
+                        <Image x:Name="Física"
+                                       Source="Fisica.png"
+                                       HeightRequest="45"
+                                       WidthRequest="45">
+                        </Image>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <StackLayout x:Name="StackQuimica" 
+                                 HeightRequest="20">
+            </StackLayout>
+            <Frame CornerRadius="10"  
+                           OutlineColor="Black"
+                           BackgroundColor="Yellow"
+                           Margin="60, 0, -10, 0"
+                           Padding="3">
+                <StackLayout BackgroundColor="Yellow"
+                                     HeightRequest="65">
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="5" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="1" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <StackLayout BackgroundColor="Yellow"
+                                         Orientation="Horizontal"
+                                         VerticalOptions="StartAndExpand"
+                                         HorizontalOptions="StartAndExpand">
+                        <Image Source="Quimica.png"
+                                       Margin="15, 0, 0, 0"
+                                       HeightRequest="45"
+                                       WidthRequest="45">
+                        </Image>
+                        <Label TextColor="Black"
+                                       FontAttributes="Bold"
+                                       Text="        Química"
+                                       FontSize="Large"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center">
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <StackLayout x:Name="StackEstadistica" 
+                                 HeightRequest="20">
+            </StackLayout>
+            <Frame CornerRadius="10"  
+                           OutlineColor="Black"
+                           BackgroundColor="Green"
+                           Margin="-10, 0, 60, 0"
+                           Padding="3">
+                <StackLayout BackgroundColor="Green"
+                                     HeightRequest="65">
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="5" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <BoxView  BackgroundColor="Black" 
+                                      HeightRequest="1" 
+                                      VerticalOptions="Start" 
+                                      HorizontalOptions="FillAndExpand">
+                    </BoxView>
+                    <StackLayout BackgroundColor="Green"
+                                         Orientation="Horizontal"
+                                         VerticalOptions="StartAndExpand"
+                                         HorizontalOptions="StartAndExpand">
+                        <Label TextColor="Black"
+                                       FontAttributes="Bold"
+                                       Text="                 Estadística     "
+                                       FontSize="Large"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center">
+                        </Label>
+                        <Image Source="Tumi.png"
+                                       HeightRequest="50"
+                                       WidthRequest="50">
+                        </Image>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <StackLayout HeightRequest="20">
+            </StackLayout>
+            <StackLayout BackgroundColor="Black"
+                         VerticalOptions="EndAndExpand"
+                         HeightRequest="50">
+                <Label x:Name="AboutUs"
+                           Text="Acerca de nosotros"
+                           TextColor="White"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand">
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

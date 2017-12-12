@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Materias.Matematica"
+             Title="Matemática">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Fórmulas"
+                   Margin="0, 0, 0, -10"
+                   FontSize="Large"
+                   TextColor="White"
+                   BackgroundColor="LightGray"
+                   Opacity="50"
+                   ></Label>
+            <Picker x:Name="PickerTemas" 
+                    SelectedIndexChanged="PickerTemas_SelectedIndexChanged"
+                    Margin="0, 0, 0, -10"
+                   BackgroundColor="LightGray"
+                   Opacity="50"
+                    TextColor="White"
+                    Style="Label">
+            </Picker>
+            <ScrollView
+                x:Name="sv"
+                HorizontalOptions='FillAndExpand'>
+                <Image 
+                       HorizontalOptions="FillAndExpand"
+                       x:Name="Foto">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                        Tapped="OnTapGestureRecognizerTapped"
+                        NumberOfTapsRequired="2">
+                        </TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                </Image>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
